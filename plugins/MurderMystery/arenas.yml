@@ -1,8 +1,6 @@
 instances:
   Offices:
-    lobbylocation: MM-Offices,-79.50234011670716,4.0,-506.5361518455536,-359.35046,0.0
-    Startlocation: MM-Offices,-79.50234011670716,4.0,-506.5361518455536,-359.35046,0.0
-    Endlocation: murdermystery_world,66.4496463280791,110.0,43.504825184749976
+    lobbylocation: MM-Offices,-80.0,4.0,-507.0,0.0,0.0
     playerspawnpoints:
     - MM-Offices,-91.40480857514306,49.0,-326.58744974359075
     - MM-Offices,-90.06962366170052,49.0,-337.7948418896569
@@ -55,21 +53,22 @@ instances:
     playerperdetective: 1
     mapname: Offices
     isdone: true
-    world: OfficesMM
+    world: MM-Offices
     mystery-cauldrons:
-    - OfficesMM,-77.0,49.0,-363.0
-    - OfficesMM,-89.0,49.0,-299.0
+    - MM-Offices,-77.0,49.0,-363.0
+    - MM-Offices,-89.0,49.0,-299.0
     confessionals:
-    - OfficesMM,-57.0,56.0,-290.0
+    - MM-Offices,-57.0,56.0,-290.0
     spawngoldtime: 5
     hidechances: false
     signs:
     - PartyGames_Lobby,-182,5,48,0.0,0.0
     goldvisuals: true
+    startlocation: MM-Offices,-79.50234011670716,4.0,-506.5361518455536,-359.35046,0.0
+    endlocation: murdermystery_world,66.4496463280791,110.0,43.504825184749976
+    spectatorlocation: MM-Offices,-79.50234011670716,4.0,-506.5361518455536,-359.35046,0.0
   SantaFactory:
     lobbylocation: MM-SantaFactory,6.126641123453666,79.0,-55.82353143142244,-1.0718994,0.0
-    Startlocation: MM-SantaFactory,6.126641123453666,79.0,-55.82353143142244,-1.0718994,0.0
-    Endlocation: murdermystery_world,66.4496463280791,110.0,43.504825184749976
     playerspawnpoints:
     - MM-SantaFactory,-0.5923577776864883,80.0,-31.649891905054204
     - MM-SantaFactory,-2.2011056139129592,84.0,-13.487500011920929
@@ -131,3 +130,12 @@ instances:
     spawngoldtime: 5
     hidechances: false
     goldvisuals: true
+    startlocation: MM-SantaFactory,6.126641123453666,79.0,-55.82353143142244,-1.0718994,0.0
+    endlocation: murdermystery_world,66.4496463280791,110.0,43.504825184749976
+    spectatorlocation: MM-SantaFactory,6.126641123453666,79.0,-55.82353143142244,-1.0718994,0.0
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+Do-Not-Edit:
+  File-Version: 0
+  Core-Version: 1

@@ -2,7 +2,7 @@ worlds:
   MM-Offices:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: MM-Offices
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -33,11 +33,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -126.5
-      y: 0.0
-      z: -223.5
-      pitch: 0.0
-      yaw: 0.0
+      x: -69.8181799710798
+      y: 55.0
+      z: -365.3927306031886
+      pitch: 39.472668
+      yaw: 174.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
@@ -46,10 +46,57 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
+  Murder_world:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Murder_world
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -112.0
+      y: 65.0
+      z: 64.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '749726693120499085'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   OfficesMM:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: OfficesMM
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -96,7 +143,7 @@ worlds:
   MM-SantaFactory:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: MM-SantaFactory
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -143,7 +190,7 @@ worlds:
   PartyGames_Lobby:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: PartyGames_Lobby
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -190,7 +237,7 @@ worlds:
   murdermystery_world:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: murdermystery_world
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -221,11 +268,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 65.0
-      z: 0.0
-      pitch: 0.0
-      yaw: 0.0
+      x: 66.5
+      y: 110.0
+      z: 43.5
+      pitch: 1.3499244
+      yaw: -47.682816
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []

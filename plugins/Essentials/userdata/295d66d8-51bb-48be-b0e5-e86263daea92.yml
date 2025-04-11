@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 166.48.180.93
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741984533303
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741984806523
+  login: 1741984399020
+money: '0'
+last-account-name: AX400_Dessy
+lastlocation:
+  world: ac59b73c-daa4-4caa-8537-048d2dc12f0b
+  world-name: murdermystery_world
+  x: 65.44917896893182
+  y: 110.0
+  z: 44.875371156775394
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: ac59b73c-daa4-4caa-8537-048d2dc12f0b
+  world-name: murdermystery_world
+  x: 66.29683091342604
+  y: 110.0
+  z: 43.50801838957695
+  yaw: 0.0
+  pitch: 0.0

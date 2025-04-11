@@ -18,225 +18,268 @@ npc:
     traits:
       type: PLAYER
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: mm join SantaFactory
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       skintrait:
-        fetchDefaultSkin: true
         signature: VQEJFmrjBYK2XyxlhbFUSAkwyv29d7mcH9lNSduAuqbbdx0ApCVLTG2xKKeQ94gxMVhf3TRlbL6amUIEvl72UDWInhROVNLU79/jjYiqZzQIEtQXVl6n95Net9BVnzmk5GhSbge/qKBvXT/i/oCP9gC6Zy/Qk8uLFdRAnuW7Iqw1fcPmEd+mF/GXRL2+SDhTpokyjmgYhWkHp9OL9o24gHdTwrDYl0aXiIKUOHsnylVqlby/YdnsKlnAwqyf2Vg72S6JtEq9yOsCnl4F69HfYqb7ymVz6zphPxglNLoVxhJMEwENCggWg2bmbEV14SxdwvkkpTQzG441sLvGAEEcwMXcCoNav3NhesafG+wV7u/ZzExQ3OuxLA7BeQg6/uBivtVq/ULl2gSbVZaeUetnH6ZpB05g/Zwtfolhq/czNbtw8dV0vBw+ZlIko5bcurPGCmJ0p2NvXHijOHUz+c2KauNtMtkuOBMw+LhS9luB6SYScmLggJ2VfDe1QehBjlBO3sF0lhxuNjyPDf1TJGisj65wDOa7L9UlqI0eJYde0P+SC36r8MIuSrw3aGTKsyKn5N0yJNFRfWtSucTYSvHJHEz/vfS93jKS94SnWqxj79lI9xRXH5CXnGaqwn6wqbF/LFEtqRnAfUhbZF7aXYyllYlX4PiguIjry3K0I+B7J9s=
         skinName: santa
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzNjM3OTE3MCwKICAicHJvZmlsZUlkIiA6ICJjN2ZkZGI5YWFkZmQ0YmUzYjMyNmQ3MDBkZjI1MmU4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW50YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZjg2NjgyMWJmYmY1MWMwNWZmNzk4YWYxMDk1NzVhZmZhMThjNzc5MTUxODEwYjUyZTk5YzU0N2MzMzc5ZWI3IgogICAgfQogIH0KfQ==
-        updateSkins: false
       location:
-        bodyYaw: -138.40942
+        bodyYaw: -172.38867
         world: murdermystery_world
-        x: '70.5648'
-        y: '111.0'
-        z: '55.4893'
-        yaw: '-138.4094'
-        pitch: '4.7999'
+        x: 70.5648
+        y: 111.0
+        z: 55.4893
+        yaw: -172.3887
+        pitch: 25.2763
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       spawned: true
-    traitnames: spawned,location,mounttrait,commandtrait,skintrait,hologramtrait,owner,scoreboardtrait,inventory,type
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,hologramtrait,mounttrait,skintrait,lookclose,location,inventory,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '0':
     metadata:
       cached-skin-uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
       cached-skin-uuid-name: allandev
-    name: §e§lOFFICES
+    name: '&9&lOFFICES'
     uuid: cef04802-8454-4dd8-9c27-1a637ce753a1
     traits:
       type: PLAYER
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: mm join Offices
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       skintrait:
-        fetchDefaultSkin: true
         signature: kFXmH7cqyXajrZ7Ioy4wrKfKMyaEB67YBCvs6byzVtX2LbxKMHAevlyT3nAIMqJIppZ75OG3O+pC2kdIWX2FYnbDh2hORX4CjuBFoHMlxkMQciDAXot4B1nwB8n0M+F5Z4+/fxhMbh/yt2oSXo8Ksi2DimN/WtdUnLJpBzrw2tT7Fj0m6oI6drYgT4Gd4V+jTmULcoI/mD52H9YTnl8scP6DH+Y3/6/GyT3h/fqivw7Ju3LaU6XkY2h6k5dPJpRjIQPj5iEuYnPRLFx9kFxOPvxGB9taFT2ZPbFGfOFvDsk9CN9i3L9onOkgXSIhjMDRenPQhD7cqNF0f+BVvNbn38ERV6xHB9FtOQZpA4XVNOYq9hlgZtBdQiAQtX2u6zTxUemedQcjzmHGUViZU7WPRVQoVJMepousEZqC0rrStDCCNDJsAfxxoubv+GUB5/5dAS7Ype3pl1xuMoOfe7JgWOZUowDMSncf1tWFIJPYm0BcnSZ7uEbt2nK4D3MpBPR9K4AYpekwvkKRNLnncLp1hmrou9wVoAwKwhpWY6eQCMLa7WCKKaTBPXl2OltHQvC/YvduJIYOeDx/jgX8d4dVBnkn65Aq+cCHHBq0F3ibfuE3CunwKw0iWbjr51SNWaATIbTTyCnqqCxF8EgKwqfc0AEdiuw2dG9SUCa3lb+9LkM=
         skinName: allandev
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzNjM2OTIxMywKICAicHJvZmlsZUlkIiA6ICJiZGM4MzUwMjZkNzU0YzI2YTYzMzcyOWU5ZWQ4MWFlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGxhbkRldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NmUzOTVkZDcxMzljYWZhNWZlMmZjMTQ1MmZkZGU2MDYxM2IzMGZkYzhhZmNhOGMxYjcxYTZiNDkwZTc1N2UwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
-        updateSkins: false
       location:
-        bodyYaw: -149.51257
+        bodyYaw: -179.24103
         world: murdermystery_world
-        x: '72.3458'
-        y: '111.0'
-        z: '57.6891'
-        yaw: '-149.5126'
-        pitch: '8.8485'
+        x: 72.3458
+        y: 111.0
+        z: 57.6891
+        yaw: 160.759
+        pitch: 12.3868
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       spawned: true
-    traitnames: spawned,location,mounttrait,skintrait,commandtrait,owner,scoreboardtrait,inventory,type
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,location,inventory,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '4':
     metadata:
-      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
-      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: bbd32793-dbb6-41d8-abdc-7e6785186d55
+      cached-skin-uuid-name: berttah
     name: §7§lTOP §4§lKILLS
     uuid: 0fe75a25-387b-4ff1-b835-83d86e4a89d5
     traits:
       location:
-        bodyYaw: 115.84131
+        bodyYaw: 56.365402
         world: murdermystery_world
-        x: '85.3728'
-        y: '110.0'
-        z: '53.5499'
-        yaw: '115.8413'
-        pitch: '-0.9004'
+        x: 85.3728
+        y: 110.0
+        z: 53.5499
+        yaw: 56.3654
+        pitch: -6.3299
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
-        signature: EoqQ6N5euGKtt+9O8xXo+fhmaY4V6eBDUFNwKMRjB6n1Gnl+kzYA708QN1Nqwaur93MkPnv00+QCu8f3BcE4D+TMY33XZNATyeQLKgICHgh+MOr4hKBA/7a8NDnwx3JGs5QSiWxqE0JW0zuOz/PViaEufbzisVzwOAmlWI142TsXQvSKWFeoYBB9h4urm8yzJvpOsewFM4P4VgjL7AINZZn9LuahEWtpmVJCu8V2jhDwUd3CnjnXFqY9QjXwnslW0Qhhk0EUIiFxTZ8vPtQWTZWVsu4GXRAwqwr1KjBqgbdpJxRlwu/EsEY6X7B2dB07kVZ+jEUlmGJmsOIKSB7jrgei/OX4Uv1H16cQ2/buL5x9oWZzEeWaUBkzTs/3xY5pOTixmtgI9PMhFcC8+NDUOymt6QsDLEOj0F6elI3HJCOJJCNiQo/tTlAwQ3DnyrCjSq69Rmxitv0sOZUrhRRQ0WmiMEe8ef3N3nbn37vVlnK6mhTYxy6sR6Sd5nj+hCi2y6eTXBejRIJpClIGa+7CTbZJuxteGOT7hj2hk7qzPtn6mg2x5ctjiPjlGhUKJJ89Q07g07xn15/udR6r1AzrF7eLD8oeS0+VTUWIBm2ouxfR93T5l8R0f5EdBD597tYqO9lZkUom3HCDZncOsK0ZHAk0wrMFxU9vu5Zv2A7vIis=
-        skinName: apexhosting
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTI0MDE0NzUxNywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
+        signature: pqWzDLHjuQCNKCRsQP2HJJUitJfDzHAddh4TwvwF8VdRub01rz1wI86fgBXxR21+XwRyVHRQPqceNcjWLXTtiPotNoseTRjzHn3D4Vu4gp5rG2gogKGHqXXP7L3t3UT+gCWiQlj9AZ13uQVmD3DiBQ1cS8e0G6G/PNSbL3StL60ILJJPqFegVVWQ/RAthLEfIgE6S/rNexRA3ALh0lX0UCzXmq/0hT2nYSdYSZa9QFNVpXzoJNoaxLaJ7mxPpcH0+GeorLZpyHiV3TVWgwu0Cl6JdnimLnyOjI/zOq2JygepKVD+5GZI5I/uYrHYbBzKoNyQcwj0ZRiy6KTbMPnXaetDBSOpFVK22S3fGUGNj21n86qG7K1zpUayGKFWdUn4yvUURuuINiHzhaRfE59ZOex99tGXiF9ziPY6Z89oXdF0UQMBkd4z//IDpDfXscy0NeEfw87X9xnL///rtg96xw0r2gf/dcYYscUURnAYZS1Wc/5GPSYCum0MDkaRQBgtXLfzbKwH93df02t38/aQg0oUItN9pb2NKnuwXll9L2nIsw+mOpIvAamoZNvcrlKQk2zkDr7OUmxKbYuggiBDDLKzEYOFLRYvExagVww0LbAjqiNNR0GmHGgNySltZiDxs+hclWI7FReXnH9L0w37Iq79aZOJ1VNdur0rxsQjXBo=
+        skinName: Berttah
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTU5Mjc5NTU2OCwKICAicHJvZmlsZUlkIiA6ICJiYmQzMjc5M2RiYjY0MWQ4YWJkYzdlNjc4NTE4NmQ1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZXJ0dGFoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZkYjliNGEyMTlmNGVkNTNmYTliNTQwZTFhMzFjZWFmN2I4YjEyZTFiZTQwNDMyMTAwYzgwYWYwODY5YzUwNGYiCiAgICB9CiAgfQp9
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       type: PLAYER
       hologramtrait:
         direction: BOTTOM_UP
-        lineHeight: -1.0
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: mm top kills
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: spawned,location,mounttrait,skintrait,commandtrait,hologramtrait,owner,scoreboardtrait,inventory,type
+            cost: -1.0
+            experienceCost: -1
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,hologramtrait,mounttrait,skintrait,lookclose,location,inventory,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '3':
     metadata:
-      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
-      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
     name: §7§lTOP §a§lWINS
     uuid: c38d2560-7f58-43af-958a-bb19b9b7d940
     traits:
       location:
-        bodyYaw: 120.03589
+        bodyYaw: 75.11705
         world: murdermystery_world
-        x: '86.5155'
-        y: '110.0'
-        z: '55.5047'
-        yaw: '120.0359'
-        pitch: '-1.3502'
+        x: 86.5155
+        y: 110.0
+        z: 55.5047
+        yaw: 75.1171
+        pitch: -6.1139
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
-        signature: kyIBQGR2dciWnbd1yGioXpx/KVreRmJwD738/Kg+Vb471UhQWSQBJs+gLgNGsNoK8bmrStqNrswury6/juXSD9R9tC8zRgPfyT29vWDEIuT9AYKldGHhmJG527YXmFSMhvtKvfRqDG+2ZqOc1s3XzqxAgmydC9efpOIPBrgfN0/+70z1jMhrR2FCF2wH/WcigLvCGsN88S/LmmBqHVt+6/aOxEDPejgQacrsOFH1UEXaL1iyz0vX/XsXCDjMyL7s9Yez9rAS0kNjuKhA4at7TXuSIb9ANmYQ/xkEgYjCbSRcvsZG+VKf1UJrjjZL/XOOpwvOLWtETAbeRbwuD6N46UoLlcNM+bo1ZA0alNNJD5R4UZwFec9nCOWoiZc7onvWYP/I+/ZVGFKKcNuKTqIJYSq1ILmBCfLzvP2n36+0VeNCrcHFLYSPperI2k1TQ8YbxWQXSs6rRnMcqIo9TUfcAJCMkGcdzJVSoSEFKJvD1u0lfwX24nNm2mG8YuG8AWOhO0kyWe91wqqdfOgw3cG0W7njIP+qtjRIdGu9atFjjpq3ACvF3EHeQIG5b6miRtVMpUOMU16HPJ8gmRlu2m2kh4QZnXEIUAkbn8sgwoXAaBzd7nVoTIG2u3iO5sJrf/Fpvl3qU5NrBvLnVv8ll7hVk9Xt8WkzjvTNIyIU1XK21ow=
-        skinName: apexhosting
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzOTU5NTU0NywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
+        signature: uBqnlBHzy6bQnh4tYIKlkSm1cc4xS2DKL+GR8GwupwvJHvlf1o6Yk2ckka+IJJTvdOSYJ18MNyhsbuT8pva/bjNMo8PGXSXAGtw5BHVf6+zdJvgtfuidvnCRlojEPldFDqMXzQkhtx9pEnx76Ad1LPTF5LfysbPs3iGGHcPM1ST0olejnjESNhDmFprtxloONy2vyWQ3ixrD6Buh4qMr0cKdzySzzH4Eum8cR2yI5FHvm5XgOvcPBJyHFChEPgFfFdNbCS8oC0GFKcEn7P9r5OgBYmx/lVbd5HQOCl75uTEI7ZrAclyjVnkefu3tnWTalbIsS+2/lISmoUfl0IF6Vvr/kYm7dwzVKpIz8MqANnGoLDDxUi2aktHShHDRDA9ko8QAp9WYJHO0Vtj2reGEs9QS/DpL3m2e2IGCCdUyHolU6+xUNRJKpk4YbBdPjq8yhHFBCriyjqfEUg+QoR5qkz3aic6FkXNsWLxw/ZOk4wXz1xGy4ngTmKEVz2uYoCnnxgfLlb5G/NXwA87O71jrdlCbtA0LlNmJMZRxDWa4UBknJPult6aouK7+v+P/23KBf0iKigqZaPYlr22toxYSEaqbukSL7AzCtJis31vHx59HXpz3MRuGnh+Lv+5yyr70O++1HSthW0e5Lw0aKlKWdwmEfMGxsYxnKEZRXr2gj8E=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTU5MjY4NDY4MCwKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkMjJhNDQxNTQ0MjUyYjE2NzE1ZDJlMWRhZDhkOTIwYTc2YzFkMDk2NTQ1ZmNjMTk2ZTQyOGIyNGMwNjUwZGQiCiAgICB9CiAgfQp9
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       type: PLAYER
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: mm top wins
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: spawned,location,mounttrait,commandtrait,skintrait,owner,scoreboardtrait,inventory,type
+            cost: -1.0
+            experienceCost: -1
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,location,inventory,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '2':
     metadata:
-      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
-      cached-skin-uuid-name: apexhosting
+      cached-skin-uuid: 7f8c43be-31b1-4c95-b985-537603e69f11
+      cached-skin-uuid-name: firelark
     name: §d§lSTATS
     uuid: 24ab5b64-d271-43dc-be04-3960ec96532a
     traits:
       location:
-        bodyYaw: 121.795166
+        bodyYaw: 89.38429
         world: murdermystery_world
-        x: '87.5068'
-        y: '110.0'
-        z: '57.4601'
-        yaw: '121.7952'
-        pitch: '1.1999'
+        x: 87.5068
+        y: 110.0
+        z: 57.4601
+        yaw: 89.3843
+        pitch: -7.2543
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
-        signature: kyIBQGR2dciWnbd1yGioXpx/KVreRmJwD738/Kg+Vb471UhQWSQBJs+gLgNGsNoK8bmrStqNrswury6/juXSD9R9tC8zRgPfyT29vWDEIuT9AYKldGHhmJG527YXmFSMhvtKvfRqDG+2ZqOc1s3XzqxAgmydC9efpOIPBrgfN0/+70z1jMhrR2FCF2wH/WcigLvCGsN88S/LmmBqHVt+6/aOxEDPejgQacrsOFH1UEXaL1iyz0vX/XsXCDjMyL7s9Yez9rAS0kNjuKhA4at7TXuSIb9ANmYQ/xkEgYjCbSRcvsZG+VKf1UJrjjZL/XOOpwvOLWtETAbeRbwuD6N46UoLlcNM+bo1ZA0alNNJD5R4UZwFec9nCOWoiZc7onvWYP/I+/ZVGFKKcNuKTqIJYSq1ILmBCfLzvP2n36+0VeNCrcHFLYSPperI2k1TQ8YbxWQXSs6rRnMcqIo9TUfcAJCMkGcdzJVSoSEFKJvD1u0lfwX24nNm2mG8YuG8AWOhO0kyWe91wqqdfOgw3cG0W7njIP+qtjRIdGu9atFjjpq3ACvF3EHeQIG5b6miRtVMpUOMU16HPJ8gmRlu2m2kh4QZnXEIUAkbn8sgwoXAaBzd7nVoTIG2u3iO5sJrf/Fpvl3qU5NrBvLnVv8ll7hVk9Xt8WkzjvTNIyIU1XK21ow=
-        skinName: apexhosting
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzOTU5NTU0NywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
-        updateSkins: false
+        signature: dk8KrOGsIrxhel1JAn/1yJkgEFkjVk8qqx3XieEYktWjUd4of20zMYq2uvet2hHXBvLn6B6ZAIXHDR9csxe+7n089CXWwNbsUsq1FWvJjDcoq3XzNC3Kt6gpwg9a1Bw7p/7Q7I7Sfl9OY2T7HThLIs2+ttrBqK/D1FYGSReDumVZCJTvVvAf2JCp6g7JiLkrlhZMmwWa3M22jB7zAMVrNSp0KETgbpkaGCwcjibupn79WBOttj6Xq/3VqKZ3FKLhYrmD3QuJOEnQ6CWdt9F0yKnsZ0StKp+9BeK8+uuFLJ/cUV5bSUOJb7XbrbOejWWxJf2nFWFeJfGFGRhFwq47zIDH9wUmJ7T2GyebOLxefrCSmdx2Z77UvjE+6Dl1lElsItVf5YzP/NaHDMejJK7EDG9IXkGk6ymyeR5vwi7rkQgKI2vPeyYnGJ0G6mheRNYmXdJJg8znwxI3ctOSlgxaP2y3Ozg5aRm6iSom8WWUDUJWFK5EuNhsHDxwC60ZccU2z2bCJ+qsChhNlhi/plGxPriQDJ3fOR+VMcpJK+MzhY7hq0k22Jvte56cOQyeKmslGp6w+0e5DnfZoFo3tLhrG8XWoU7mREz62lktIRXkKMxUfyuup3PFSG6E0ieXl9jn7L+VwZel3yS9YnFt8am/MdkrFiwcD4m+gPnGuqNEnbQ=
+        skinName: Firelark
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTU5MjcyMjY5OCwKICAicHJvZmlsZUlkIiA6ICI3ZjhjNDNiZTMxYjE0Yzk1Yjk4NTUzNzYwM2U2OWYxMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlbGFyayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMGQ1NmQwN2QxOTc4OWNmNTdhNzg3NmU3NGUxZmNkODU5YWM3NWU2ZmIzZGJkNTg2M2MzYjNjYzVmMDEwNWJmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
       type: PLAYER
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: mm stats
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: spawned,location,mounttrait,commandtrait,skintrait,owner,scoreboardtrait,inventory,type
+            cost: -1.0
+            experienceCost: -1
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,scoreboardtrait,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,location,inventory,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false

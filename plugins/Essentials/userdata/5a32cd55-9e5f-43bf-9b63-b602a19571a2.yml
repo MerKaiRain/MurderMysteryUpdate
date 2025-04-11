@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 191.97.151.148
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741986371215
+  login: 1741986251963
+money: '0'
+last-account-name: Chesvin1
+lastlocation:
+  world: ac59b73c-daa4-4caa-8537-048d2dc12f0b
+  world-name: murdermystery_world
+  x: 66.5
+  y: 110.0
+  z: 43.5
+  yaw: -47.68281555175781
+  pitch: 1.3499244451522827
+logoutlocation:
+  world: ac59b73c-daa4-4caa-8537-048d2dc12f0b
+  world-name: murdermystery_world
+  x: 58.69660459718887
+  y: 73.48300453129411
+  z: 43.47236446965474
+  yaw: -64.93344116210938
+  pitch: -13.95009994506836

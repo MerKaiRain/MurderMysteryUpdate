@@ -99,8 +99,8 @@ Welcome:
 time:
   change-interval: 900
   texts:
-  - '&7Time &#B5651D%time%'
-  - '&7Date &#834200%date%'
+  - '&7Time &#10c5ff%time%'
+  - '&7Date &#10c5ff%date%'
 ping-tps:
   change-interval: 5000
   texts:
